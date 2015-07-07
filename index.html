@@ -22,7 +22,9 @@
       <h3>
 <a id="blackfork" class="anchor" href="#blackfork" aria-hidden="true"><span class="octicon octicon-link"></span></a>blackfork</h3>
 
-<p>evolving algorithm for playing blackjack</p>
+<p>The idea behind this program was to write a genetic algorithm for playing blackjack. I wrote this in conjunction with a <a href="https://github.com/turtlesandbox">friend of mine</a> during our Artificial Intelligence class at St. Paul's School. We began the project by outlining exactly what kinds of containers we wanted for the individual parts of the game&mdash;cards, deck(s), hands, etc. In our implementation, the functions only modify these specified containers, which prevented spaghettification of our code.</p>
+
+<p>Further, we developed an algorithm which would rely on parameters derived from the statistics about the game (number and value of cards left in the pile, estimating potential values for the dealer's hand) and randomize its playstyle in relation to those parameters. After many games with this randomization it would select the best outcome and thus best values as the final result.</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/brupoon/blackfork">@brupoon - blackfork</a> is maintained by <a href="https://github.com/brupoon">brupoon</a>.</span>
